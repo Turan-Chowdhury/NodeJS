@@ -70,6 +70,8 @@ var app = express();
 //         callback(null, file.originalname);
 //     }
 // })
+
+//24 Middleware
 // var upload = multer({storage:storage}).single('myfile');
 // app.post("/", function(req, res){
 //     upload(req, res, function (error){
